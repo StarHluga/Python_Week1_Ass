@@ -16,7 +16,7 @@ elif operation == "/":
 else:
     result = "Invalid operation"
 
-print("Result:", result)
+print(f"{num1} {operation} {num2} = {result}")
 # End of Calculator.py
 
 #advanced calculator program
@@ -53,6 +53,6 @@ def advanced_calculator():
     else:
         result = "Invalid operation"
 
-    print("Result:", result)
+    print(f'Result: {result}')
 # Call the advanced calculator function
 advanced_calculator()
